@@ -159,7 +159,7 @@ Finally, please download the compressed folder named `pretrained_models` from [t
 <p>
  
  <b>CAI-Diffusion(based on PerFRDiff)</b>
- - Running the following shell can start training PerFRDiff baseline for the offline task: 
+ - Running the following shell can start training for the offline task: 
 ```shell
 python main.py \
     data=motion_diffusion \
@@ -188,7 +188,26 @@ python main.py \
 </details>
 
 <details><summary> <b> Evaluation </b>  </summary>
-
-- [ ] to be released
-
-</details>
+<p>
+ 
+ <b>CAI-Diffusion(based on PerFRDiff)</b>
+ - Running the following shell can start evaluation for the offline task: 
+```shell
+python main.py \
+    data=motion_diffusion \
+    trainer=motion_diffusion \
+    trainer.batch_size=2 \
+    stage=fit \
+    task=offline \
+    data_dir=./data
+```
+ &nbsp; &nbsp; or for the online task:
+```shell
+python main.py \
+    data=motion_diffusion \
+    trainer=motion_diffusion \
+    trainer.batch_size=8 \
+    stage=fit \
+    task=online \
+    data_dir=./data
+```
