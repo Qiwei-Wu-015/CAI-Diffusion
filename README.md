@@ -160,19 +160,7 @@ Finally, please download the compressed folder named `pretrained_models` from [t
 
 <details><summary> <b> Training </b>  </summary>
 <p>
- 
- <b>CAI-Diffusion(based on PerFRDiff)</b>
- - Running the following shell can start training for the offline task: 
-```shell
-python main.py \
-    data=motion_diffusion \
-    trainer=motion_diffusion \
-    trainer.batch_size=2 \
-    stage=fit \
-    task=offline \
-    data_dir=/root/autodl-tmp/REACT2025-NEW 
-```
- &nbsp; &nbsp; or for the online task:
+
 ```shell
 python main.py \
     data=motion_diffusion \
@@ -199,19 +187,6 @@ Place the extracted weights under the checkpoint directory, for example:
 <details><summary> <b> Evaluation </b>  </summary>
 <p>
  
- <b>CAI-Diffusion(based on PerFRDiff)</b>
- - Running the following shell can start evaluation for the offline task: 
-```shell
-nohup python main.py \
-    data=motion_diffusion \
-    trainer=motion_diffusion \
-    trainer.batch_size=1 \
-    stage=test \
-    task=offline \
-    data_dir=/root/autodl-tmp/REACT2025-NEW \
-    resume_id=<train-experiment-id>
-```
- &nbsp; &nbsp; or for the online task:
 ```shell
 python main.py \
     data=motion_diffusion \
