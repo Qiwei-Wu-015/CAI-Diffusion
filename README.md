@@ -176,7 +176,7 @@ python main.py \
 <details><summary> <b> Pretrained weights </b>  </summary>
 
 - Download link: https://pan.quark.cn/s/034b057884de
-    - REACT2025 Val: 260202120033_7lbiuva7
+    - REACT2025  Val: 260202120033_7lbiuva7
     - REACT2024 Test: 260203004241_a921xpmf
 
 Place the extracted weights under the checkpoint directory, for example:
