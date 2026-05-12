@@ -1,7 +1,8 @@
 # CAI-Diffusion
 CAI-Diff: Causal Anticipation and Interaction Diffusion for Facial Reaction Generation(based on PerFRDiff)
 
-Acknowledgement: This project references and thanks [baseline_react2025](https://github.com/reactmultimodalchallenge/baseline_react2025), [FaceVerse](https://github.com/LizhenWangT/FaceVerse), and [PIRender](https://github.com/RenYurui/PIRender).
+## Acknowledgement: 
+This project references and thanks [baseline_react2025](https://github.com/reactmultimodalchallenge/baseline_react2025), [FaceVerse](https://github.com/LizhenWangT/FaceVerse), and [PIRender](https://github.com/RenYurui/PIRender).
 
 
 ## Dependency Installation
