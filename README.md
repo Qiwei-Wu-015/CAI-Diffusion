@@ -179,6 +179,7 @@ python main.py \
     task=online \
     data_dir=/root/autodl-tmp/REACT2025-NEW
 ```
+</details>
 
 
 <details><summary> <b> Pretrained weights </b>  </summary>
