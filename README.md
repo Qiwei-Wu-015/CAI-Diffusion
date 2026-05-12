@@ -167,7 +167,7 @@ python main.py \
     trainer.batch_size=2 \
     stage=fit \
     task=offline \
-    data_dir=./data
+    data_dir=/root/autodl-tmp/REACT2025-NEW 
 ```
  &nbsp; &nbsp; or for the online task:
 ```shell
@@ -177,7 +177,7 @@ python main.py \
     trainer.batch_size=8 \
     stage=fit \
     task=online \
-    data_dir=./data
+    data_dir=/root/autodl-tmp/REACT2025-NEW
 ```
 
 
@@ -193,21 +193,23 @@ python main.py \
  <b>CAI-Diffusion(based on PerFRDiff)</b>
  - Running the following shell can start evaluation for the offline task: 
 ```shell
-python main.py \
+nohup python main.py \
     data=motion_diffusion \
     trainer=motion_diffusion \
-    trainer.batch_size=2 \
-    stage=fit \
+    trainer.batch_size=1 \
+    stage=test \
     task=offline \
-    data_dir=./data
+    data_dir=/root/autodl-tmp/REACT2025-NEW \
+    resume_id=<train-experiment-id>
 ```
  &nbsp; &nbsp; or for the online task:
 ```shell
 python main.py \
     data=motion_diffusion \
     trainer=motion_diffusion \
-    trainer.batch_size=8 \
-    stage=fit \
+    trainer.batch_size=1 \
+    stage=test \
     task=online \
-    data_dir=./data
+    data_dir=/root/autodl-tmp/REACT2025-NEW \
+    resume_id=<train-experiment-id>
 ```
