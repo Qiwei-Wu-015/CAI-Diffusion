@@ -4,7 +4,7 @@ CAI-Diff: Causal Anticipation and Interaction Diffusion for Facial Reaction Gene
 Acknowledgement: This project references and thanks [baseline_react2025](https://github.com/reactmultimodalchallenge/baseline_react2025), [FaceVerse](https://github.com/LizhenWangT/FaceVerse), and [PIRender](https://github.com/RenYurui/PIRender).
 
 
-## 🛠️ Dependency Installation
+## Dependency Installation
 
 We provide detailed instructions for setting up the environment using conda. First, create and activate a new environment:
 ``` shell
@@ -54,7 +54,7 @@ Install all remaining dependencies specified in requirements.txt:
 pip install -r requirements.txt
 ```
 
-## 👨‍🏫 Get Started 
+## Get Started 
 
 <details><summary> <b> Data </b> </summary>
 <p>
@@ -224,7 +224,7 @@ python main.py \
 </details>
 
 
-## 🖊️ Citation
+## Citation
 
 Submissions should cite the following papers:
 
@@ -237,6 +237,7 @@ Theory paper and baseline paper:
 [3] Song, Siyang, Micol Spitale, Cheng Luo, Germán Barquero, Cristina Palmero, Sergio Escalera, Michel Valstar et al. "REACT2023: The First Multiple Appropriate Facial Reaction Generation Challenge." In Proceedings of the 31st ACM International Conference on Multimedia, pp. 9620-9624. 2023.
 
 Annotation, basic feature extraction tools and baselines:
+
 [6] Song, Siyang, Yuxin Song, Cheng Luo, Zhiyuan Song, Selim Kuzucu, Xi Jia, Zhijiang Guo, Weicheng Xie, Linlin Shen, and Hatice Gunes. "GRATIS: Deep Learning Graph Representation with Task-specific Topology and Multi-dimensional Edge Features." arXiv preprint arXiv:2211.12482 (2022).
 
 [7] Luo, Cheng, Siyang Song, Weicheng Xie, Linlin Shen, and Hatice Gunes. (2022, July) "Learning multi-dimensional edge feature-based au relation graph for facial action unit recognition." Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence (pp. 1239-1246).
@@ -246,6 +247,7 @@ Annotation, basic feature extraction tools and baselines:
 [9] Eyben, Florian, Martin Wöllmer, and Björn Schuller. "Opensmile: the munich versatile and fast open-source audio feature extractor." In Proceedings of the 18th ACM international conference on Multimedia, pp. 1459-1462. 2010.
 
 Submissions are encouraged to cite previous facial reaction generation papers:
+
 [1] Huang, Yuchi, and Saad M. Khan. "Dyadgan: Generating facial expressions in dyadic interactions." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops, pp. 11-18. 2017.
 
 [2] Huang, Yuchi, and Saad Khan. "A generative approach for dynamically varying photorealistic facial expressions in human-agent interactions." In Proceedings of the 20th ACM International Conference on Multimodal Interaction, pp. 437-445. 2018.
